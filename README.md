@@ -5,6 +5,7 @@
 ![china_city](http://cl.ly/image/3c212i1e3b1T/ScreenFlow.mp4.gif)
 
 ## 简介
+Fork 自saberma/china_city，原始项目年久失修，无法使用。修复为兼容 Rails 6。
 
 这是一个基于 Rails Engine 开发的插件，为 Rails 项目增加省市区街道四级（或者省市区三级、省市二级）选择框，可用于实现收货地址等信息的录入。
 
@@ -17,12 +18,12 @@
 
 ### Gemfile
 
-    gem 'china_city'
+    gem 'clwy_china_city'
 
 ### app/assets/javascripts/application.js
 
     //= require 'jquery'
-    //= require 'china_city/jquery.china_city'
+    //= require 'clwy_china_city/jquery.china_city'
 
 ### config/routes.rb
 

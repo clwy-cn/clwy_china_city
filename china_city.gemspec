@@ -5,11 +5,11 @@ require "china_city/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "china_city"
+  s.name        = "clwy_china_city"
   s.version     = ChinaCity::VERSION
-  s.authors     = ["saberma"]
-  s.email       = ["mahb45@gmail.com"]
-  s.homepage    = "https://github.com/saberma/china_city"
+  s.authors     = ["Dong Liu"]
+  s.email       = ["canonpd@gmail.com"]
+  s.homepage    = "https://github.com/clwy-cn/china_city"
   s.summary     = "a gem to help you select chinese area"
   s.description = "a gem to help you select chinese area like province, city and district"
   s.license     = 'MIT'
