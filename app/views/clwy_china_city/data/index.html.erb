@@ -3,10 +3,10 @@
   city     = '440300'
   district = '440305'
   street   = '440305001'
-  provinces  = ChinaCity.list
-  cities     = ChinaCity.list(province)
-  districtes = ChinaCity.list(city)
-  streets    = ChinaCity.list(district)
+  provinces  = ClwyChinaCity.list
+  cities     = ClwyChinaCity.list(province)
+  districtes = ClwyChinaCity.list(city)
+  streets    = ClwyChinaCity.list(district)
 %>
 <h2>Rails Helper</h2>
 <div class='rails-helper city-group'>
@@ -20,7 +20,7 @@
 <div class='html-tag city-group'>
   <select class='city-select city-province'>
     <option>--省份--</option>
-    <%= options_for_select(ChinaCity.list, province) %>
+    <%= options_for_select(ClwyChinaCity.list, province) %>
   </select>
   <select class='city-select city-city'>
     <option>--城市--</option>

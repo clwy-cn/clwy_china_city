@@ -1,4 +1,4 @@
-module ChinaCity
+module ClwyChinaCity
   module ApplicationHelper
   end
 end

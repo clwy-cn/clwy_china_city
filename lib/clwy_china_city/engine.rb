@@ -1,6 +1,6 @@
-module ChinaCity
+module ClwyChinaCity
   class Engine < ::Rails::Engine
-    isolate_namespace ChinaCity
+    isolate_namespace ClwyChinaCity
 
     config.generators do |g|
       g.test_framework      :rspec,        fixture: false

@@ -1,9 +1,9 @@
-require_dependency "china_city/application_controller"
+require_dependency "clwy_china_city/application_controller"
 
-module ChinaCity
+module ClwyChinaCity
   class DataController < ApplicationController
     def show
-      data = ChinaCity.list(params[:id])
+      data = ClwyChinaCity.list(params[:id])
       render json: data, layout: nil
     end
 

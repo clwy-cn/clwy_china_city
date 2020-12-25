@@ -1,3 +1,3 @@
-module ChinaCity
+module ClwyChinaCity
   VERSION = "0.0.7"
 end

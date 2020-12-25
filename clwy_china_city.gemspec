@@ -1,15 +1,15 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "china_city/version"
+require "clwy_china_city/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "china_city"
-  s.version     = ChinaCity::VERSION
+  s.name        = "clwy_china_city"
+  s.version     = ClwyChinaCity::VERSION
   s.authors     = ["Dong Liu"]
   s.email       = ["canonpd@gmail.com"]
-  s.homepage    = "https://github.com/clwy-cn/clwy-china_city"
+  s.homepage    = "https://github.com/clwy-cn/clwy_china_city"
   s.summary     = "a gem to help you select chinese area"
   s.description = "a gem to help you select chinese area like province, city and district"
   s.license     = 'MIT'

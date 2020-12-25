@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount ChinaCity::Engine => "/china_city"
+  mount ClwyChinaCity::Engine => "/clwy_china_city"
 end

@@ -9,7 +9,7 @@ require 'appraisal'
 
 RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title    = 'ChinaCity'
+  rdoc.title    = 'ClwyChinaCity'
   rdoc.options << '--line-numbers'
   rdoc.rdoc_files.include('README.rdoc')
   rdoc.rdoc_files.include('lib/**/*.rb')
@@ -28,4 +28,4 @@ desc "Run all specs in spec directory (excluding plugin specs)"
 RSpec::Core::RakeTask.new(:spec)
 task :default => :spec
 
-load 'lib/china_city_tasks.rake'
+load 'lib/clwy_china_city_tasks.rake'

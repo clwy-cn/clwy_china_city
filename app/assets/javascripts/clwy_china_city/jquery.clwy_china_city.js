@@ -1,5 +1,5 @@
 (function() {
-    $.fn.china_city = function() {
+    $.fn.clwy_china_city = function() {
         return this.each(function() {
             var selects;
             selects = $(this).find('.city-select');
@@ -9,7 +9,7 @@
                 next_selects = selects.slice(selects.index(this) + 1);
                 $("option:gt(0)", next_selects).remove();
                 if (next_selects.first()[0] && $this.val()) {
-                    return $.get("/china_city/" + ($(this).val()), function(data) {
+                    return $.get("/clwy_china_city/" + ($(this).val()), function(data) {
                         var i, len, option, results;
                         results = [];
                         for (i = 0, len = data.length; i < len; i++) {
@@ -24,7 +24,7 @@
     };
 
     $(document).on("turbolinks:load", function() {
-        return $('.city-group').china_city();
+        return $('.city-group').clwy_china_city();
     });
 
 }).call(this);

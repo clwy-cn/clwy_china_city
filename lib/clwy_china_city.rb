@@ -1,7 +1,7 @@
 # encoding: utf-8
-require "china_city/engine"
+require "clwy_china_city/engine"
 
-module ChinaCity
+module ClwyChinaCity
   CHINA = '000000' # 全国
   PATTERN = /(\d{2})(\d{2})(\d{2})/
 

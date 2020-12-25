@@ -8,7 +8,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "china_city"
+require "clwy_china_city"
 
 module Dummy
   class Application < Rails::Application

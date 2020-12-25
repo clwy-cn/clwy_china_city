@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    china_city (0.0.6)
+    clwy_china_city (0.0.6)
       jquery-rails (~> 3)
       rails (~> 4.0)
 
@@ -165,7 +165,7 @@ DEPENDENCIES
   GB2260
   appraisal
   capybara
-  china_city!
+  clwy_china_city!
   coffee-rails (~> 4.1)
   httparty
   jquery-rails
